@@ -1,0 +1,767 @@
+{
+  "shops": [
+    {
+      "name": "starbucks",
+      "address": "Near Starbucks",
+      "phone": "7778889990",
+      "imageUrl": "http://www.fodors.com/ee/files/slideshows/9-colectivo-coffee.jpg",
+      "menu": [
+        {
+          "displayName": "Hot Drinks",
+          "slug": "hot-drinks",
+          "items": [
+            {
+              "name": "Coffee",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "latte"
+            },
+            {
+              "name": "Black Coffee",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "americano"
+            },
+            {
+              "name": "Hot Chocolate",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "cappucino"
+            },
+            {
+              "name": "Espresso",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "espresso"
+            },
+            {
+              "name": "Hot Water",
+              "price": 10.0,
+              "options": ["size", "quantity"],
+              "id": "macchiato"
+            }
+          ]
+        },
+
+        {
+          "displayName": "Cold Drinks",
+          "slug": "cold-drinks",
+          "items": [
+            {
+              "name": "Iced Coffee",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "iced-latte"
+            },
+            {
+              "name": "Iced Chocolate",
+              "price": 40.0,
+              "options": ["size", "quantity"],
+              "id": "iced-mocha"
+            },
+            {
+              "name": "Iced Chai",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "iced-chai"
+            },
+            {
+              "name": "Iced Water",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": ""
+            },
+            {
+              "name": "Iced Frappe",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "frappe"
+            }
+          ]
+        },
+
+        {
+          "displayName": "Tea",
+          "slug": "tea",
+          "items": [
+            {
+              "name": "Green",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "green"
+            },
+            {
+              "name": "Jasmine Green",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "jasmine-green"
+            },
+            {
+              "name": "Chai",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "chai"
+            },
+            {
+              "name": "Mint",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "mint"
+            },
+            {
+              "name": "Chamomile",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "chamomile"
+            }
+          ]
+        },
+
+        {
+          "displayName": "Bakery",
+          "slug": "bakery",
+          "items": [
+            {
+              "name": "Croissant",
+              "price": 15.0,
+              "options": ["quantity"],
+              "id": "croissant"
+            },
+            {
+              "name": "Banana Cake",
+              "price": 65.0,
+              "options": ["quantity"],
+              "id": "banana-muffin"
+            },
+            {
+              "name": "Blueberry Cake",
+              "price": 45.0,
+              "options": ["quantity"],
+              "id": "blueberry-scone"
+            },
+            {
+              "name": "Carrot Cake",
+              "price": 25.0,
+              "options": ["quantity"],
+              "id": "carrot-cake"
+            },
+            {
+              "name": "Cookies",
+              "price": 35.0,
+              "options": ["quantity"],
+              "id": "home-made-cookies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "beanscene",
+      "address": "255 Alvera St. Los Angeles, CA 98654",
+      "phone": "(818) 438-9832",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Inside_the_Coffee_Shop,_Parliament_House,_Dolgellau_-_geograph.org.uk_-_1708041.jpg",
+      "menu": [
+        {
+          "displayName": "Hot Drinks",
+          "slug": "hot-drinks",
+          "items": [
+            {
+              "name": "Coffee",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "latte"
+            },
+            {
+              "name": "Black Coffee",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "americano"
+            },
+            {
+              "name": "Hot Chocolate",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "cappucino"
+            },
+            {
+              "name": "Espresso",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "espresso"
+            },
+            {
+              "name": "Hot Water",
+              "price": 10.0,
+              "options": ["size", "quantity"],
+              "id": "macchiato"
+            }
+          ]
+        },
+        {
+          "displayName": "Cold Drinks",
+          "slug": "cold-drinks",
+          "items": [
+            {
+              "name": "Iced Coffee",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "iced-latte"
+            },
+            {
+              "name": "Iced Chocolate",
+              "price": 40.0,
+              "options": ["size", "quantity"],
+              "id": "iced-mocha"
+            },
+            {
+              "name": "Iced Chai",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "iced-chai"
+            },
+            {
+              "name": "Iced Water",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": ""
+            },
+            {
+              "name": "Iced Frappe",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "frappe"
+            }
+          ]
+        },
+        {
+          "displayName": "Tea",
+          "slug": "tea",
+          "items": [
+            {
+              "name": "Green",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "green"
+            },
+            {
+              "name": "Jasmine Green",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "jasmine-green"
+            },
+            {
+              "name": "Chai",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "chai"
+            },
+            {
+              "name": "Mint",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "mint"
+            },
+            {
+              "name": "Chamomile",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "chamomile"
+            }
+          ]
+        },
+        {
+          "displayName": "Bakery",
+          "slug": "bakery",
+          "items": [
+            {
+              "name": "Croissant",
+              "price": 15.0,
+              "options": ["quantity"],
+              "id": "croissant"
+            },
+            {
+              "name": "Banana Cake",
+              "price": 65.0,
+              "options": ["quantity"],
+              "id": "banana-muffin"
+            },
+            {
+              "name": "Blueberry Cake",
+              "price": 45.0,
+              "options": ["quantity"],
+              "id": "blueberry-scone"
+            },
+            {
+              "name": "Carrot Cake",
+              "price": 25.0,
+              "options": ["quantity"],
+              "id": "carrot-cake"
+            },
+            {
+              "name": "Cookies",
+              "price": 35.0,
+              "options": ["quantity"],
+              "id": "home-made-cookies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tifa",
+      "address": "6785 Huntington St. Venice, CA 90233",
+      "phone": "(818) 438-9832",
+      "imageUrl": "https://cdn1.vox-cdn.com/thumbor/D7jAbLqhca3vAJ20SbXyJH_Dv3I=/0x120:960x840/800x600/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/45736528/compass_coffee.0.0.jpg",
+      "menu": [
+        {
+          "displayName": "Hot Drinks",
+          "slug": "hot-drinks",
+          "items": [
+            {
+              "name": "Coffee",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "latte"
+            },
+            {
+              "name": "Black Coffee",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "americano"
+            },
+            {
+              "name": "Hot Chocolate",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "cappucino"
+            },
+            {
+              "name": "Espresso",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "espresso"
+            },
+            {
+              "name": "Hot Water",
+              "price": 10.0,
+              "options": ["size", "quantity"],
+              "id": "macchiato"
+            }
+          ]
+        },
+        {
+          "displayName": "Cold Drinks",
+          "slug": "cold-drinks",
+          "items": [
+            {
+              "name": "Iced Coffee",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "iced-latte"
+            },
+            {
+              "name": "Iced Chocolate",
+              "price": 40.0,
+              "options": ["size", "quantity"],
+              "id": "iced-mocha"
+            },
+            {
+              "name": "Iced Chai",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "iced-chai"
+            },
+            {
+              "name": "Iced Water",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": ""
+            },
+            {
+              "name": "Iced Frappe",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "frappe"
+            }
+          ]
+        },
+        {
+          "displayName": "Tea",
+          "slug": "tea",
+          "items": [
+            {
+              "name": "Green",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "green"
+            },
+            {
+              "name": "Jasmine Green",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "jasmine-green"
+            },
+            {
+              "name": "Chai",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "chai"
+            },
+            {
+              "name": "Mint",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "mint"
+            },
+            {
+              "name": "Chamomile",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "chamomile"
+            }
+          ]
+        },
+        {
+          "displayName": "Bakery",
+          "slug": "bakery",
+          "items": [
+            {
+              "name": "Croissant",
+              "price": 15.0,
+              "options": ["quantity"],
+              "id": "croissant"
+            },
+            {
+              "name": "Banana Cake",
+              "price": 65.0,
+              "options": ["quantity"],
+              "id": "banana-muffin"
+            },
+            {
+              "name": "Blueberry Cake",
+              "price": 45.0,
+              "options": ["quantity"],
+              "id": "blueberry-scone"
+            },
+            {
+              "name": "Carrot Cake",
+              "price": 25.0,
+              "options": ["quantity"],
+              "id": "carrot-cake"
+            },
+            {
+              "name": "Cookies",
+              "price": 35.0,
+              "options": ["quantity"],
+              "id": "home-made-cookies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coffeeBean",
+      "address": "2433 Soju st. Venice, CA 90235",
+      "phone": "(818) 438-9832",
+      "imageUrl": "http://cdn.offtrackplanet.com/legacy/uploads/2010/08/coffee.jpg",
+      "menu": [
+        {
+          "displayName": "Hot Drinks",
+          "slug": "hot-drinks",
+          "items": [
+            {
+              "name": "Coffee",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "latte"
+            },
+            {
+              "name": "Black Coffee",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "americano"
+            },
+            {
+              "name": "Hot Chocolate",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "cappucino"
+            },
+            {
+              "name": "Espresso",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "espresso"
+            },
+            {
+              "name": "Hot Water",
+              "price": 10.0,
+              "options": ["size", "quantity"],
+              "id": "macchiato"
+            }
+          ]
+        },
+        {
+          "displayName": "Cold Drinks",
+          "slug": "cold-drinks",
+          "items": [
+            {
+              "name": "Iced Coffee",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "iced-latte"
+            },
+            {
+              "name": "Iced Chocolate",
+              "price": 40.0,
+              "options": ["size", "quantity"],
+              "id": "iced-mocha"
+            },
+            {
+              "name": "Iced Chai",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "iced-chai"
+            },
+            {
+              "name": "Iced Water",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": ""
+            },
+            {
+              "name": "Iced Frappe",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "frappe"
+            }
+          ]
+        },
+        {
+          "displayName": "Tea",
+          "slug": "tea",
+          "items": [
+            {
+              "name": "Green",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "green"
+            },
+            {
+              "name": "Jasmine Green",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "jasmine-green"
+            },
+            {
+              "name": "Chai",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "chai"
+            },
+            {
+              "name": "Mint",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "mint"
+            },
+            {
+              "name": "Chamomile",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "chamomile"
+            }
+          ]
+        },
+        {
+          "displayName": "Bakery",
+          "slug": "bakery",
+          "items": [
+            {
+              "name": "Croissant",
+              "price": 15.0,
+              "options": ["quantity"],
+              "id": "croissant"
+            },
+            {
+              "name": "Banana Cake",
+              "price": 65.0,
+              "options": ["quantity"],
+              "id": "banana-muffin"
+            },
+            {
+              "name": "Blueberry Cake",
+              "price": 45.0,
+              "options": ["quantity"],
+              "id": "blueberry-scone"
+            },
+            {
+              "name": "Carrot Cake",
+              "price": 25.0,
+              "options": ["quantity"],
+              "id": "carrot-cake"
+            },
+            {
+              "name": "Cookies",
+              "price": 35.0,
+              "options": ["quantity"],
+              "id": "home-made-cookies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "starbucks",
+      "address": "123 4th St. Santa Monica, CA 90234",
+      "phone": "(818) 438-9832",
+      "imageUrl": "http://www.fodors.com/ee/files/slideshows/9-colectivo-coffee.jpg",
+      "menu": [
+        {
+          "displayName": "Hot Drinks",
+          "slug": "hot-drinks",
+          "items": [
+            {
+              "name": "Coffee",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "latte"
+            },
+            {
+              "name": "Black Coffee",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "americano"
+            },
+            {
+              "name": "Hot Chocolate",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": "cappucino"
+            },
+            {
+              "name": "Espresso",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "espresso"
+            },
+            {
+              "name": "Hot Water",
+              "price": 10.0,
+              "options": ["size", "quantity"],
+              "id": "macchiato"
+            }
+          ]
+        },
+        {
+          "displayName": "Cold Drinks",
+          "slug": "cold-drinks",
+          "items": [
+            {
+              "name": "Iced Coffee",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "iced-latte"
+            },
+            {
+              "name": "Iced Chocolate",
+              "price": 40.0,
+              "options": ["size", "quantity"],
+              "id": "iced-mocha"
+            },
+            {
+              "name": "Iced Chai",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "iced-chai"
+            },
+            {
+              "name": "Iced Water",
+              "price": 15.0,
+              "options": ["size", "quantity"],
+              "id": ""
+            },
+            {
+              "name": "Iced Frappe",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "frappe"
+            }
+          ]
+        },
+        {
+          "displayName": "Tea",
+          "slug": "tea",
+          "items": [
+            {
+              "name": "Green",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "green"
+            },
+            {
+              "name": "Jasmine Green",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "jasmine-green"
+            },
+            {
+              "name": "Chai",
+              "price": 35.0,
+              "options": ["size", "quantity"],
+              "id": "chai"
+            },
+            {
+              "name": "Mint",
+              "price": 25.0,
+              "options": ["size", "quantity"],
+              "id": "mint"
+            },
+            {
+              "name": "Chamomile",
+              "price": 30.0,
+              "options": ["size", "quantity"],
+              "id": "chamomile"
+            }
+          ]
+        },
+        {
+          "displayName": "Bakery",
+          "slug": "bakery",
+          "items": [
+            {
+              "name": "Croissant",
+              "price": 15.0,
+              "options": ["quantity"],
+              "id": "croissant"
+            },
+            {
+              "name": "Banana Cake",
+              "price": 65.0,
+              "options": ["quantity"],
+              "id": "banana-muffin"
+            },
+            {
+              "name": "Blueberry Cake",
+              "price": 45.0,
+              "options": ["quantity"],
+              "id": "blueberry-scone"
+            },
+            {
+              "name": "Carrot Cake",
+              "price": 25.0,
+              "options": ["quantity"],
+              "id": "carrot-cake"
+            },
+            {
+              "name": "Cookies",
+              "price": 35.0,
+              "options": ["quantity"],
+              "id": "home-made-cookies"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
