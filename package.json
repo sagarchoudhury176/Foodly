@@ -1,5 +1,5 @@
 {
-  "name": "gomocha",
+  "name": "foodly",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -24,7 +24,14 @@
     "redux-promise": "^0.5.3",
     "redux-thunk": "^2.1.0",
     "superagent": "^1.8.3",
-    "supertest": "^2.0.1"
+    "supertest": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
@@ -47,13 +54,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amituuush/gomocha.git"
+    "url": "git+https://github.com/sagarchoudhury176/Foodly.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amituuush/gomocha/issues"
+    "url": "https://github.com/sagarchoudhury176/Foodly/issues"
   },
-  "homepage": "https://github.com/amituuush/gomocha#readme"
+  "homepage": "https://github.com/sagarchoudhury176/Foodly"
 }
